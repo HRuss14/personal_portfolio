@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Felipe Russi</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo" id="logo" onclick="location.href='#desktop-nav'">Felipe Russi </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Felipe Russi</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#courses" onclick="toggleMenu()">Courses</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Foto_Perfil.png" alt="Felipe profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Felipe Russi</h1>
+        <p class="section__text__p2">UX Designer / Web Designer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/CV_Hernán_Russi_EN.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="window.open('https://www.linkedin.com/in/hernan-felipe-russi/')"
+          />
+         
+          <img
+            src="./assets/medium.png"
+            alt="My Medium profile"
+            class="icon"
+            onclick="window.open('https://medium.com/@hfrussi')"
+          />
+
+          <img
+          src="./assets/github.png"
+          alt="My Github profile"
+          class="icon"
+          onclick="window.open('https://github.com/HRuss14')"
+        />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/Foto_2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p><b> <li> Dell Technologies</b> - Inside Sales Support<br /></li> <b> <li> Grupo Vivezza</b> - Web Designer<br /></li> </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p><b> <li> Computer Engineering</b> - Universidad de la Sabana<br /></li><li> Diploma in <b>UX Design</b></li> </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              <b>Computer Engineer</b> with experience in software development using Java, specializing in creating intuitive and attractive user interfaces. 
+              Proficient in advanced design tools such as <b>Adobe Photoshop, Adobe XD, and Figma, essential for user experience and design</b>. 
+              Additionally, I possess strong skills in web programming using <b>HTML, CSS, and JavaScript</b>. I stand out as a collaborative, empathetic individual, 
+              always willing to work in a team environment and contribute to collective success.
+              <br><br>
+              Her approach is based on understanding user needs, applying <b>human-centered design principles</b> and ensuring smooth and intuitive<b> navigation</b> in every project. 
+              He stands out for being an <b>empathetic, collaborative and team-oriented person</b>, capable of integrating diverse perspectives to enrich the design and exceed client expectations. 
+              His goal is to constantly innovate in the creation of <b>digital experiences</b> that generate <b>real value</b> and <b>satisfaction for users</b>.
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#skills'"
+      />
+    </section>
+    <section id="skills">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="skills-sub-title">UI/UX Design</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>FIGMA</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Design Thinking</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>UX Research</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe XD</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Interaction Design (IxD)</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="skills-sub-title">Web Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="skills icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>WordPress</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#courses'"/>
+  </section>
+  <section id="courses">
+    <p class="section__text__p1">Take a look to my</p>
+    <h1 class="title">Courses</h1>
+    <div class="courses-details-container">
+      <div class="courses-container">
+        <!-- Carrusel de fotos -->
+        <div class="carousel">
+          <div class="carousel-track" id="carouselTrack">
+            <img src="assets/DiseñoWeb.svg" alt="Course 1" class="carousel-image" 
+            onclick="window.open('https://www.udemy.com/certificate/UC-1db955ed-3ead-4341-8990-4b1281617b87/')">
+            <img src="assets/ReactJS.svg" alt="Course 2" class="carousel-image"
+            onclick="window.open('https://www.udemy.com/certificate/UC-d9d97764-ad47-499a-a6dc-9fcc3b0b5af1/')">
+            <img src="assets/UX.svg" alt="Course 3" class="carousel-image"
+            onclick="window.open('https://www.udemy.com/certificate/UC-8b8a555b-a83f-4b5c-a9a1-bc3a6cb323a9/')">
+            <img src="assets/GenAI.svg" alt="Course 4" class="carousel-image"
+            onclick="window.open('https://www.credly.com/badges/18ac4b95-fd77-4b77-959b-9a868215a39d/linked_in_profile')">
+            <img src="assets/CISCO.svg" alt="Course 5" class="carousel-image"
+            onclick="window.open('https://www.credly.com/badges/a0cb7047-c74a-4ce0-997c-49e4d6b1425a/linked_in_profile')">
+            <img src="assets/Sabana Hack.svg" alt="Course 6" class="carousel-image">
+          </div>
+          <button class="carousel-button prev">❮</button>
+          <button class="carousel-button next">❯</button>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./assets/arrow.png"
+      alt="Arrow icon"
+      class="icon arrow"
+      onclick="location.href='#projects'"
+    />
+  </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Prometheus.png"
+                alt="Prometheus"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Prometheus</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/HRuss14/App_Prometheus')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://app-prometheus.web.app/')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/EcoRaee's.png"
+                alt="EcoRaees"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Fundación EcoRaee's</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://medium.com/@hfrussi/fundaci%C3%B3n-eco-raees-57c993db9b26')"
+              >
+                Medium
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.figma.com/proto/TAqhuVdvE9fxafycTYWrcz/Fundaci%C3%B3n-ECO-Rae?node-id=4-9&p=f&t=QUUXFVyV3uFCWbOI-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=4%3A9')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/FitMinds.png"
+                alt="FitMinds"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">FitMinds</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://medium.com/@hfrussi/fitminds-f8729c0b53d3')"
+              >
+                Medium
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://www.figma.com/proto/Qf9fz07uTs00jZE7q5thyf/FitMinds?node-id=4-592&starting-point-node-id=1%3A2&t=x8c87C4CHAIPdzoO-1')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:hfrussi@hotmail.com">hfrussi@hotmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/hernan-felipe-russi/">LinkedIn</a></p>
+        </div>
+      </div>
+      <img
+        src="./assets/arrowup.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#desktop-nav'"
+      />
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Felipe Russi. All right reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
